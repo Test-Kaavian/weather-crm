@@ -1,0 +1,250 @@
+@media only screen and (max-width:600px) {
+  img.img6 {
+    height: 40px;
+    margin-left: -10%;
+    margin-top: -6.5%;
+  }  
+  img.img5 {
+    height: 0px;
+    margin-top: 130%;
+    margin-left: -25%;
+  }
+  img.img4 {
+    height: 60px;
+    margin-top: 9%;
+  }
+  div.circle2 {
+    height: 30px;
+  }
+  div.loginForm {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30%;
+  }
+  button.loginButton {
+    margin-left: 25%;
+  }
+  button.showPassword {
+    margin-bottom: -20%;
+    margin-top:-10%;
+    margin-left: 87%;
+  }
+  div.google-button-div {
+    margin-top: 35rem;
+    margin-bottom: -39.3rem;
+    margin-left: 5rem;
+  }
+  .loginPageErrorMessage {
+    width: 30%;
+    color: red;
+    margin-left: 57.5%;
+    margin-right: auto;
+    margin-top:-2%;
+    text-align: center;
+  }
+}
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.loginPage {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'lato', sans-serif;
+  /* background: linear-gradient(-45deg, #9f7be6cc 0%, #9f7be6cc 100%); */
+}
+.desingc{
+  background: linear-gradient(-45deg, #9f7be6cc 0%, #9f7be6cc 100%); 
+}
+.img1 {
+  width: 50px;
+  position: relative;
+  margin-top: 2%;
+  left: -95%;
+  right: 100%;
+  height: 20px;
+  z-index: 1;
+}
+
+.circle2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9f7be6cc;
+  clip-path: circle(700px at left 400px);
+  z-index: -1;
+}
+
+.svg {
+  position: fixed;
+  top: 2%;
+  height: 140%;
+  width: -50px;
+  left: -120%;
+  transform: rotate(36deg);
+  bottom: 0;
+  z-index: -1;
+}
+
+.svg2 {
+  position: fixed;
+  top: 27%;
+  height: 140%;
+  right: 10%;
+  left: 30%;
+  transform: rotate(-3deg);
+  z-index: -1;
+}
+
+.img4 {
+  position: fixed;
+  top: 43px;
+  margin-top: 4%;
+  margin-left: 6.7%;
+  border-radius: 30px;
+  height: 12%;
+  left: 63%;
+  z-index: 1;
+  opacity: .8;
+}
+.img5 {
+  position: fixed;
+  top: 43px;
+  margin-top: 4%;
+  margin-left: -60%;
+  border-radius: 30px;
+  height: 70%;
+  left: 63%;
+  z-index: 1;
+}
+
+.img6 {
+  position: fixed;
+  top: 43px;
+  margin-top: -2.1%;
+  margin-left: 6.7%;
+  border-radius: 30px;
+  height: 12%;
+  left: 63%;
+  z-index: 1;
+}
+
+.loginPage {
+  height: 100%;
+  width: 100%;
+  margin-top: -10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  width: 25rem;
+  background: rgb(251, 251, 251);
+  height: 36rem;
+  margin-right: 40%;
+  margin-left: 60%;
+  margin-top: 16%;
+  flex-direction: column;
+  background: rgb(236, 236, 235);
+  border-radius: 40px;
+  border-left: 1px solid rgb(51, 86, 241, .5);
+  border-top: 1px solid rgb(51, 86, 241, .5);
+}
+
+.loginh1 {
+  font-size: 45px;
+  margin-top: 35%;
+  text-align: center;
+  color: #9f7be6cc;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+  letter-spacing: 3px;
+  margin-bottom: 5%;
+  opacity: .8;
+}
+
+.loginLable {
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 13%;
+  margin-bottom: -5%;
+  color: #00B0FF;
+  opacity: .8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, .3);
+}
+
+input {
+  color: #00B0FF;
+  width: 70%;
+  height: 10%;
+  margin: 5% auto;
+  margin-bottom: -4%;
+  border-radius: 25px;
+  margin-top: 13%;
+  margin-left: 3.4rem;
+  outline: none;
+  background: #fff;
+  border: 1px solid rgba(0, 176, 255, 0.6);
+  opacity: .8;
+}
+
+.loginButton {
+  width: 50%;
+  margin: 3% auto;
+  color: white;
+  font-size: 15px;
+  padding: 10px 30px;
+  background: #9f7be6cc;
+  border: none;
+  margin-top: 35%;
+  margin-left: 6rem;
+  outline: none;
+  border-radius: 20px;
+  box-shadow: 3px 3px 5px rgba(31, 38, 135, .40);
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+
+
+.loginPageErrorMessage {
+  width: 30%;
+  color: red;
+  margin-left: 57.5%;
+  margin-right: auto;
+  margin-top:-1.5%;
+  text-align: center;
+}
+
+.showPassword {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 83%;
+  margin-top: -6%;
+  margin-bottom: -19%;
+  display: flex;
+  font-size: medium;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #00B0FF;
+  cursor: pointer;
+  background: transparent;
+}
+
+.google-button-div{
+  width: fit-content;
+  position: relative;
+  margin-top: 48.5%;
+  margin-bottom: -51.4%;
+  margin-left: 66%;
+  border-radius: 20px;
+}

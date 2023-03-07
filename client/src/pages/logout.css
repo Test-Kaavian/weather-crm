@@ -1,0 +1,29 @@
+@media only screen and (max-width:600px) {
+    button.logoutbt {
+        position: relative;
+        float: right;
+        top: -80%;
+        right: 10%;
+    }
+}
+.logoutbt {
+    margin-left: 81rem;
+    position: relative;
+    top: -3.5rem;
+    background: transparent;
+    /* right: -76%; */
+    padding: 20px 20px 20px 20px ;
+    border: none;
+    border-radius: 10px;
+    color:#f7dfd3;
+    display: flex;
+}
+
+.logouticon{
+font-size: large;
+margin-top: -2px;
+}
+
+.logoutbt:hover {
+    background: rgb(54, 92, 167);
+}
