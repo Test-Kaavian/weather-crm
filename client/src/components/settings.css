@@ -1,0 +1,80 @@
+@media only screen and (max-width:600px) {
+    .setting{
+        width: 90rem;
+        padding: 10px 10px 10px 10px;
+    }
+    .head{
+        width:90% ;
+    }
+}
+.head{
+    display: flex;  
+    align-items: center;
+    min-height: 100vh;
+    /* background: linear-gradient(#00B0FF,#00B0FF 45%,#fff 45%,#fff 100%) */
+}
+
+.daeh{
+        width: 20rem;
+        height: 35rem;
+        display: flex;
+        margin-top: -30%;
+        margin-bottom: 0%;
+        margin-left: 10%;
+        margin-right: auto;
+        flex-direction: column;
+        /* background: rgba(216, 216, 216, 0.471); */
+        background-image: linear-gradient(to right, rgb(234, 150, 234) , rgb(109, 177, 204));
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,.40);
+        border-radius: 10px;
+        box-shadow: 10px 10px rgb(137, 131, 131);
+        border-left: 1px solid rgb(51, 86, 241,.5);
+        border-top: 1px solid rgb(51, 86, 241,.5);
+    }
+    .settingtitle {
+        margin-left: 7.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+.setting{
+    color: #002fff;
+    width: fit-content;
+    height:50px;
+    margin: 4% auto;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid rgb(137, 95, 206) ;
+}
+
+.setbtn{
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 1%;
+    color: white;
+    font-size: 15px;
+    padding: 10px 10px;
+    /* background: rgba(184, 128, 205, 0.6); */
+    color: black;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px  rgba(31,38,135,.40);
+    border-left: 2px solid rgba(0, 0, 0, 0.3);
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+}
+.setbtn:hover{
+    background-color: inherit;
+    color: black;
+    transform: scale(1.02);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3), -1px -1px 8px rgba(0,0,0,0.3);
+}
+ .font{
+    /* color:#8650dc; */
+    color: black;
+    text-align: center;
+    font-size: large;
+}

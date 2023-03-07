@@ -1,0 +1,120 @@
+@media only screen and (max-width:600px) {
+    select.logdropdown1 {
+        float: left;
+        margin-left: -21rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 0px;
+        padding-right: 0px;
+        border-radius: 10px;
+    }
+    select.logdropdown {
+        float: left;
+        margin-left: -34rem;
+        border-radius: 10px;
+    }
+    button.logbutton {
+        margin-left: -36rem;
+        top: 3rem;
+    }
+    button.logrefresh {
+        margin-left: -43.5rem;
+        margin-top: 7rem;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    table.logtable {
+        margin-top: -20px;
+    }
+    table.logtable tr td {
+        padding: 0%;
+    }
+}
+
+
+select.logdropdown {
+    position: relative;
+    left: 700px;
+    top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.logdropdown:hover {
+    cursor: pointer;
+    background: inherit;
+}
+
+.logdropdown1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+    left: 350px;
+}
+
+.logdropdown1:hover {
+    cursor: pointer;
+    background: inherit;
+}
+
+button.logbutton {
+    position: relative;
+    left: 880px;
+    margin-top: -10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px 15px 15px 15px;
+    background-color: white;
+}
+
+.logbutton:hover {
+    background: inherit;
+}
+
+.logtable {
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 50px;
+    /* border-collapse: collapse; */
+    overflow-y: scroll;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(137, 131, 131);
+}
+
+thead {
+    background-image: linear-gradient(to right, rgb(234, 150, 234), rgb(109, 177, 204));
+    color: black;
+    font-size: medium;
+}
+
+.logtable tr td {
+    padding: 0rem 5rem 0rem 7rem;
+    height: 20px;
+}
+
+.logtable tr td:hover {
+    background: white;
+}
+
+button.logrefresh {
+    position: relative;
+    left: 1000px;
+    top: -50px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.logrefresh:hover {
+    background: inherit;
+}
